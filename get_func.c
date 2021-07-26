@@ -8,7 +8,7 @@
 int get_func(const char s, va_list ap)
 {
 	int i = 0, count = 0;
-	f_printf ch[] = {
+	printf_t ch[] = {
 		{'c', print_char},
 		{'s', print_string},
 		{'%', print_percent},
