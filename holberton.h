@@ -17,11 +17,12 @@ typedef struct datatype
 } data_t;
 
 int _putchar(char c);
-int _printchar(va_list ap);
-int _printstring(va_list ap);
-int _printint(va_list ap);
+int print_char(va_list ap);
+int print_string(va_list ap);
+int print_int(va_list ap);
 int _printf(const char *format, ...);
-int _rot13(va_list ap);
-int  _printrev(va_list ap);
+int print_percent(va_list ap);
+int get_func(const char s, va_list ap);
+
 
 #endif /* HOLBERTON_H */
