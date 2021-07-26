@@ -14,7 +14,7 @@ typedef struct datatype
 {
 	char *type;
 	int (*fun)(va_list list);
-} f_printf;
+} printf_t;
 
 int _putchar(char c);
 int print_char(va_list ap);
