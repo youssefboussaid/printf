@@ -13,8 +13,8 @@
 typedef struct datatype
 {
 	char *type;
-	int (*func)(va_list list);
-}f_printf;
+	int (*fun)(va_list list);
+} f_printf;
 
 int _putchar(char c);
 int print_char(va_list ap);
