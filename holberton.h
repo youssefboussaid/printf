@@ -1,28 +1,29 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef PRINTF_H
+#define PRINTF_H
+#include <limits.h>
 #include <stdarg.h>
-#include <unistd.h>
-#include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 /**
- * struct datatype - Struct datatype
- *
- * @type: The type of argument
- * @func: The function pointer to the print function
+ * struct printf - struct printf
+ * @c: The character
+ * @fun: The function associated
  */
-typedef struct datatype
+typedef struct printf
 {
-	char *type;
-	int (*fun)(va_list list);
+	char c;
+	int (*fun)(va_list);
 } printf_t;
 
-int _putchar(char c);
-int print_char(va_list ap);
-int print_string(va_list ap);
-int print_int(va_list ap);
 int _printf(const char *format, ...);
-int print_percent(va_list ap);
+int _putchar(char c);
 int get_func(const char s, va_list ap);
 
 
-#endif /* HOLBERTON_H */
+int print_char(va_list arg);
+int print_string(va_list arg);
+int print_percent(va_list arg);
+int print_int(va_list arg);
+
+
+#endif/* PRINTF_H */
