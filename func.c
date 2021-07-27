@@ -79,9 +79,11 @@ int print_int(va_list arg)
 	return (count);
 }
 /**
- * print_binary - print binary
- * @arg: argument of type va_list
- * Return: count
+ * print_binaire - convert an integer to binary (base 2).
+ *
+ * @b: the list of arguments.
+ *
+ *  Return: number of printed element.
  */
 int print_binaire(va_list b)
 {
