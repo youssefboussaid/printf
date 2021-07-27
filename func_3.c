@@ -64,4 +64,4 @@ int print_p(va_list p)
 	}
 	}
 	return (count);
-
+}
