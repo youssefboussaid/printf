@@ -19,7 +19,7 @@ The function is variadic and thus takes any amount of arguments following the fo
 - Print integers: `_printf("Here is an array element: arr[%d]:%c", 32, arr[32]);`
 	- Output: `Here is an array element arr[32]:A`
 
-You can do much more, by combining  specifiers like string or integer (full list of specifiers below) with flags, length modifiers, width, and precision.
+You can do much more, by combining  specifiers like string or integer.
 
 **Return value of `_printf()`**
 `_printf()` returns negative one (`-1`) upon failure, and the number of bytes (as an `int`) written to standard output upon success.
@@ -46,3 +46,10 @@ The _specifier character_ at the end is the most significant component, since it
 | `c` | Character | y |
 | `r` | Reversed string of characters | dlroW olleH |
 | `R` | ROT13 Translation of string | Uryyb |
+
+## Authors
+
+https://github.com/khouzi
+
+https://github.com/youssefboussaid
+
