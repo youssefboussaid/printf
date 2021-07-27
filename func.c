@@ -83,7 +83,7 @@ int print_int(va_list arg)
  * @arg: argument of type va_list
  * Return: count
  */
-int print_b(va_list b)
+int print_binaire(va_list b)
 {
 	unsigned int binary[32];
 	int i = 0;
