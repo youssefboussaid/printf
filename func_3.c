@@ -23,11 +23,11 @@ int _printrev(va_list ap)
 }
 
 /**
- * print_p - prints a string and returns the length of string
- * @p: the list of arguments
+ * print_P - prints a string and returns the length of string
+ * @pi: the list of arguments
  * Return: number of printed characters
  */
-int print_p(va_list p)
+int print_P(va_list p)
 {
 	unsigned long hex[20], n = 0;
 	unsigned int count = 0;
