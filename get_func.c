@@ -18,7 +18,7 @@ int get_func(const char s, va_list ap)
 		{'u', print_unsf},
 		{'o', print_oct},
 		{'x', print_hex},
-		{'X', print_hex},
+		{'X', print_heX},
 	};
 	while (ch[i].c != 0)
 	{
