@@ -14,6 +14,11 @@ int get_func(const char s, va_list ap)
 		{'%', print_percent},
 		{'d', print_int},
 		{'i', print_int},
+		{'b', print_binaire},
+		{'u', print_unsf},
+		{'o', print_oct},
+		{'x', print_hex},
+		{'X', print_hex},
 	};
 	while (ch[i].c != 0)
 	{
