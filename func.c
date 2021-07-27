@@ -45,8 +45,8 @@ int print_percent(va_list arg)
 }
 
 /**
- * _printint - function that prints an integer with helper function.
- * @ap: The string to print, argument pointer
+ * print_int - function that prints an integer with helper function.
+ * @arg: The string to print, argument pointer
  *
  * Return: counter
  *
