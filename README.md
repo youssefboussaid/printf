@@ -46,4 +46,3 @@ The _specifier character_ at the end is the most significant component, since it
 | `c` | Character | y |
 | `r` | Reversed string of characters | dlroW olleH |
 | `R` | ROT13 Translation of string | Uryyb |
-
