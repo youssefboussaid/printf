@@ -25,7 +25,7 @@ int print_char(va_list arg);
 int print_string(va_list arg);
 int print_percent(va_list arg);
 int print_int(va_list arg);
-int print_binaire(va_list arg);
+int print_binaire(va_list b);
 int print_unsf(va_list arg);
 int print_oct(va_list arg);
 int print_hex(va_list arg);
