@@ -24,7 +24,7 @@ int _printrev(va_list ap)
 
 /**
  * print_P - prints a string and returns the length of string
- * @pi: the list of arguments
+ * @p: the list of arguments
  * Return: number of printed characters
  */
 int print_P(va_list p)
