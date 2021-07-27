@@ -134,7 +134,7 @@ int print_heX(va_list X)
 }
 
 /**
- * print_rot13 - print rot string
+ * _rot13 - print rot string
  * @arg: argument of type va_list
  * Return:str
  */
