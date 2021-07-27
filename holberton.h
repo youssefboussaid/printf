@@ -30,6 +30,7 @@ int print_unsf(va_list arg);
 int print_oct(va_list arg);
 int print_hex(va_list arg);
 int print_heX(va_list arg);
+int _rot13(va_list ap);
 
 
 #endif/* PRINTF_H */
