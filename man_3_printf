@@ -56,7 +56,7 @@ int main(void)
     }
 
 .B Compilation:
-	   $ gcc *.c -o
+	   $ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 
 .B Output:
 let's print something using our function!
@@ -64,9 +64,6 @@ let's print something using our function!
 .SH Return Value
 In case of success _printf returns an integer value, wich is the total number of printed characters.
 Otherwise, _printf returns -1 (error).
-
-.SH NOTES
-Actualy, the program don't handle the flag characters, field width, precision nor the length modifiers.
 
 .SH SEE ALSO
 .BR man printf (3)
