@@ -32,6 +32,6 @@ int print_hex(va_list arg);
 int print_heX(va_list arg);
 int _rot13(va_list ap);
 int _printrev(va_list ap);
-
+int print_P(va_list ap);
 
 #endif/* PRINTF_H */
