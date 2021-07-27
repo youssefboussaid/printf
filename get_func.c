@@ -19,6 +19,7 @@ int get_func(const char s, va_list ap)
 		{'o', print_oct},
 		{'x', print_hex},
 		{'X', print_heX},
+		{'R', _rot13},
 	};
 	while (ch[i].c != 0)
 	{
