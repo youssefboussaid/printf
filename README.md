@@ -3,13 +3,13 @@ In this project we will implement a printf() function of the following prototype
 
 The function is variadic and thus takes any amount of arguments following the format pointer
 
-## Goals 🎉
+## Goals
 
 - Implement custom printf() function similar to that of the standard library
 - Use variadic functions to allow a custom number of arguments
 - Parse a format string to identify custom print options
 
-## Use & Examples ☕️
+## Use & Examples 
 **Use - General:**`_printf("format string", var1, var2, ...);`
 
 **Examples:**
@@ -30,7 +30,7 @@ You can do much more, by combining  specifiers like string or integer.
 - Example: `_printf("%+.22ld\n", LONG_MAX)`
 	- Output: `+0009223372036854775807`
 
-### Specifiers 🔤
+### Specifiers 
 The _specifier character_ at the end is the most significant component, since it defines the type and the interpretation of its corresponding argument:
 
 |Specifier                |Output                        |Examples |
